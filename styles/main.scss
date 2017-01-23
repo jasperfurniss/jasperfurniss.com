@@ -1,0 +1,217 @@
+// some sweet styles
+@import 'bourbon/bourbon';
+@import 'neat/neat';
+
+// // fade in animation
+// @keyframes fadein {
+//     from {
+//         opacity:0;
+//     }
+//     to {
+//         opacity:1;
+//     }
+// }
+// @-moz-keyframes fadein { /* Firefox */
+//     from {
+//         opacity:0;
+//     }
+//     to {
+//         opacity:1;
+//     }
+// }
+// @-webkit-keyframes fadein { /* Safari and Chrome */
+//     from {
+//         opacity:0;
+//     }
+//     to {
+//         opacity:1;
+//     }
+// }
+// @-o-keyframes fadein { /* Opera */
+//     from {
+//         opacity:0;
+//     }
+//     to {
+//         opacity: 1;
+//     }
+// }
+
+
+//everything else
+body {
+  @include span-columns(10);
+  @include shift(1);
+  animation: fadein 3s;
+  -moz-animation: fadein 3s; /* Firefox */
+  -webkit-animation: fadein 3s; /* Safari and Chrome */
+  -o-animation: fadein 3s; /* Opera */
+}
+
+.fade-code {
+  animation: fadein 6s;
+  -moz-animation: fadein 6s; /* Firefox */
+  -webkit-animation: fadein 6s; /* Safari and Chrome */
+  -o-animation: fadein 6s; /* Opera */
+}
+
+$primary-color: #29335C;
+/* HSL */
+$color1: hsla(14%, 77%, 54%, 1);
+$color2: hsla(228%, 38%, 26%, 1);
+$color3: hsla(40%, 90%, 51%, 1);
+$color4: hsla(88%, 36%, 65%, 1);
+$color5: hsla(203%, 39%, 57%, 1);
+
+/* RGB */
+$color1: rgba(228, 87, 46, 1);
+$color2: rgba(41, 51, 92, 1);
+$color3: rgba(243, 167, 18, 1);
+$color4: rgba(168, 198, 134, 1);
+$color5: rgba(102, 155, 188, 1);
+
+.my-name {
+    color: $color1;
+}
+
+article.type-system-serif {
+    $base-border-radius: 3px !default;
+    $base-line-height: 1.5em !default;
+    $base-spacing: 1.5em !default;
+    $action-color: #477DCA !default;
+    $dark-gray: #333 !default;
+    $light-gray: #DDD !default;
+    $medium-screen: 40em !default;
+    $base-font-color: $dark-gray !default;
+    $serif: 'Lusitana', serif;
+    $serif-2: 'Merriweather', serif;
+    $sans-serif: 'Merriweather Sans', sans-serif;
+    @include clearfix;
+    font-family: $serif-2;
+    text-align: left;
+
+    h1,
+    h2,
+    h3,
+    p {
+        margin: 0;
+    }
+
+    hr {
+        border-bottom: 1px solid $light-gray;
+        border-left: 0;
+        border-right: 0;
+        border-top: 0;
+        margin: $base-spacing 0;
+    }
+
+    p {
+        color: $base-font-color;
+        line-height: $base-line-height;
+    }
+
+    a {
+        color: $action-color;
+        text-decoration: none;
+    }
+
+    .type {
+        border-bottom: 1px solid;
+        display: inline-block;
+        font-family: $sans-serif;
+        font-size: 0.7em;
+        font-weight: 700;
+        margin-bottom: 2em;
+        padding: 0.3em 0;
+        text-align: left;
+        text-transform: uppercase;
+    }
+
+    h1 {
+        font-family: $serif;
+        font-size: 2em;
+        font-weight: 700;
+        margin-bottom: 0.5em;
+        @include media($medium-screen) {
+            font-size: 2.6em;
+        }
+    }
+
+    h2 {
+        font-family: $serif-2;
+        font-size: 1em;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 1.6em;
+        margin-bottom: 0.9em;
+        @include media($medium-screen) {
+            font-size: 1.2em;
+        }
+    }
+
+    code {
+        background: #F7F7F7;
+        border-radius: $base-border-radius * 1.5;
+        border: 1px solid #E0E0E0;
+        font-family: monaco;
+        font-size: 0.75em;
+        font-style: normal;
+        padding: 0.1em 0.4em;
+        white-space: nowrap;
+    }
+
+    h3 {
+        font-family: $serif;
+        font-size: 1.4em;
+        font-weight: 400;
+        line-height: 1.3em;
+        margin-bottom: 0.4em;
+    }
+
+    p.date {
+        color: transparentize($base-font-color, 0.6);
+        font-family: $serif-2;
+        font-size: 0.9em;
+        font-style: italic;
+        margin-bottom: 0.3em;
+    }
+
+    p {
+        font-family: $serif-2;
+        font-size: 0.9em;
+        line-height: 1.6em;
+        margin-bottom: 1.5em;
+
+        span {
+            font-family: $sans-serif;
+            font-weight: 700;
+        }
+    }
+
+    a.read-more {
+        display: inline-block;
+        font-family: $sans-serif;
+        font-size: 0.8em;
+        font-weight: 700;
+        margin-left: 0.2em;
+        position: relative;
+        text-transform: uppercase;
+
+        span {
+            font-family: $serif;
+            font-size: 1.5em;
+            font-style: normal;
+            position: absolute;
+            right: -12px;
+            top: -1px;
+        }
+    }
+
+    hr {
+        width: 3em;
+    }
+
+    p.author {
+        font-family: $serif-2;
+        font-style: italic;
+    }
+}

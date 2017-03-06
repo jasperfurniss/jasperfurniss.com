@@ -8,9 +8,6 @@ html {
     height: 100%;
     margin: 0;
     max-width: 100%;
-    overflow-x: hidden;
-    overflow-y: hidden;
-
 }
 
 .mypicture {
@@ -422,15 +419,14 @@ article.type-system-serif a {
 }
 /////////   PHONES   ///////////
 @media screen and (min-width: 0px) and (max-width: 540px) {
-
-  body, html {
-    width: 100%;
-    height: auto;
-    margin: 0;
-    overflow-y: visible;
-    overflow-x: hidden;
-}
-
+    body,
+    html {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        overflow-y: visible;
+        overflow-x: hidden;
+    }
 
     .mypicture {
         float: left;

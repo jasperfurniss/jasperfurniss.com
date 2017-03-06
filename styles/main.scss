@@ -217,6 +217,13 @@ article.type-system-serif {
 .hidden-wording {
     display: none;
 }
+
+article.type-system-serif a {
+    color: #ECC8AF;
+    text-decoration: underline;
+}
+
+
 @media screen and (min-width: 1216px) and (max-width: 1390px) {
     body,
     html {

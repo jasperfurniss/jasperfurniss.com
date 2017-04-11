@@ -195,7 +195,17 @@ article.type-system-serif a {
     display: block;
     margin-right: 2.35765%;
     width: 48%;
-    margin-left: 49%; } }
+    margin-left: 49%; }
+
+  .mypicture {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    width: 40%;
+    height: 1000px;
+    background: url(http://atlaslocal.com/wp-content/uploads/2017/02/jasper.png) 35% no-repeat;
+    background-size: cover; } }
 @media screen and (min-width: 1080px) and (max-width: 1164px) {
   article {
     position: absolute;
@@ -217,7 +227,17 @@ article.type-system-serif a {
     padding: 30px;
     font-family: "Merriweather", serif;
     font-size: 0.9em;
-    line-height: 1.6em; } }
+    line-height: 1.6em; }
+
+  .mypicture {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    width: 40%;
+    height: 1000px;
+    background: url(http://atlaslocal.com/wp-content/uploads/2017/02/jasper.png) 35% no-repeat;
+    background-size: cover; } }
 @media screen and (min-width: 1081px) and (max-width: 1180px) {
   .mypicture {
     float: left;

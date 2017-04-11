@@ -31,7 +31,7 @@ html {
     }
 }
 
-article {
+.type-system-serif {
     position: absolute;
     @include span-columns(5);
     @include shift(6);
@@ -52,7 +52,7 @@ $color5: rgba(102, 155, 188, 1);
     color: $color1;
 }
 
-article.type-system-serif {
+div.type-system-serif {
     $base-border-radius: 3px !default;
     $base-line-height: 1.5em !default;
     $base-spacing: 1.5em !default;
@@ -193,7 +193,7 @@ article.type-system-serif {
     }
 }
 
-article.type-system-serif p {
+div.type-system-serif p {
     color: white;
     background: #523F38;
     opacity: 0.6;
@@ -205,7 +205,7 @@ article.type-system-serif p {
     margin-bottom: 1.5em;
 }
 
-article.type-system-serif {
+div.type-system-serif {
     font-family: "Merriweather", serif;
     text-align: left;
     color: white;
@@ -217,7 +217,7 @@ article.type-system-serif {
     display: none;
 }
 
-article.type-system-serif a {
+div.type-system-serif a {
     color: #ECC8AF;
     text-decoration: underline;
 }
@@ -229,7 +229,7 @@ article.type-system-serif a {
         margin: 0;
     }
 
-    article {
+    .type-system-serif {
         position: absolute;
         float: left;
         display: block;
@@ -242,7 +242,7 @@ article.type-system-serif a {
         width: 48%;
     }
 
-    article {
+    .type-system-serif {
         position: absolute;
         float: left;
         display: block;
@@ -263,7 +263,7 @@ article.type-system-serif a {
 }
 }
 @media screen and (min-width: 1080px) and (max-width: 1164px) {
-    article {
+    .type-system-serif {
         position: absolute;
         float: left;
         display: block;
@@ -310,7 +310,7 @@ article.type-system-serif a {
         background-size: cover;
     }
 
-    article {
+    .type-system-serif {
         position: absolute;
         float: left;
         display: block;
@@ -336,7 +336,7 @@ article.type-system-serif a {
     }
 }
 @media screen and (min-width: 950px) and (max-width: 1080px) {
-    article.type-system-serif h2 {
+    div.type-system-serif h2 {
         line-height: 27px;
     }
 
@@ -351,7 +351,7 @@ article.type-system-serif a {
         background-size: cover;
     }
 
-    article {
+    .type-system-serif {
         position: absolute;
         float: left;
         display: block;
@@ -378,7 +378,7 @@ article.type-system-serif a {
 }
 /////////// TABLETS  /////////////
 @media screen and (min-width: 541px) and (max-width: 949px) {
-    article.type-system-serif h2 {
+    div.type-system-serif h2 {
         line-height: 27px;
     }
 
@@ -398,7 +398,7 @@ article.type-system-serif a {
         opacity: 0.7;
     }
 
-    article {
+    .type-system-serif {
         position: relative;
         float: left;
         display: block;
@@ -417,7 +417,7 @@ article.type-system-serif a {
         background-size: cover;
     }
 
-    article.type-system-serif {
+    div.type-system-serif {
         font-family: "Merriweather", serif;
         text-align: left;
         color: white;
@@ -426,7 +426,7 @@ article.type-system-serif a {
         padding-top: 5%;
     }
 
-    article.type-system-serif p {
+    div.type-system-serif p {
         color: #523F38;
         background: white;
         opacity: 0.8;
@@ -488,7 +488,7 @@ article.type-system-serif a {
         line-height: 1.6em;
     }
 
-    article {
+    .type-system-serif {
         position: relative;
         float: left;
         display: block;
@@ -497,7 +497,7 @@ article.type-system-serif a {
         margin-left: 0;
     }
 
-    article.type-system-serif {
+    div.type-system-serif {
         font-family: "Merriweather", serif;
         text-align: left;
         color: white;
@@ -506,15 +506,15 @@ article.type-system-serif a {
         padding-top: 122%;
     }
 
-    article.type-system-serif .type {
+    div.type-system-serif .type {
         display: none;
     }
 
-    article.type-system-serif h2 {
+    div.type-system-serif h2 {
         line-height: 25px;
     }
 
-    article.type-system-serif p {
+    div.type-system-serif p {
         color: #978C88;
         background: white;
         opacity: 1;
@@ -536,12 +536,12 @@ article.type-system-serif a {
         padding-left: 40px;
     }
 
-    article.type-system-serif h2 {
+    div.type-system-serif h2 {
         line-height: 22px;
         padding-bottom: 8px;
     }
 
-    article.type-system-serif a {
+    div.type-system-serif a {
         color: #477DCA;
         text-decoration: none;
         font-weight: bold;

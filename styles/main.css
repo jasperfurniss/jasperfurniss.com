@@ -14,16 +14,16 @@ html {
 .mypicture {
   float: left;
   display: block;
-  margin-right: 2.35765%;
+  margin-right: 2.3576520234%;
   width: 100%;
   width: 50%;
   height: 100%;
-  background: url("http://atlaslocal.com/wp-content/uploads/2017/02/jasper.png") center center no-repeat;
+  background: url("http://jasperfurniss.com/assets/jasper.png") center center no-repeat;
   background-size: cover; }
   .mypicture:last-child {
     margin-right: 0; }
   .mypicture:before {
-    content: '';
+    content: "";
     width: 100%;
     height: 100%;
     position: absolute;
@@ -38,14 +38,14 @@ html {
   position: absolute;
   float: left;
   display: block;
-  margin-right: 2.35765%;
-  width: 40.29137%;
-  margin-left: 51.17883%; }
+  margin-right: 2.3576520234%;
+  width: 40.291369653%;
+  margin-left: 51.1788260117%; }
   .type-system-serif:last-child {
     margin-right: 0; }
 
 .my-name {
-  color: #ECC8AF; }
+  color: #ecc8af; }
 
 div.type-system-serif {
   font-family: "Lora", serif;
@@ -60,7 +60,7 @@ div.type-system-serif {
   div.type-system-serif p {
     margin: 0; }
   div.type-system-serif hr {
-    border-bottom: 1px solid #DDD;
+    border-bottom: 1px solid #ddd;
     border-left: 0;
     border-right: 0;
     border-top: 0;
@@ -69,7 +69,7 @@ div.type-system-serif {
     color: #333;
     line-height: 1.5em; }
   div.type-system-serif a {
-    color: #477DCA;
+    color: #477dca;
     text-decoration: none; }
   div.type-system-serif .type {
     border-bottom: 1px solid;
@@ -100,9 +100,9 @@ div.type-system-serif {
       div.type-system-serif h2 {
         font-size: 1.2em; } }
   div.type-system-serif code {
-    background: #F7F7F7;
+    background: #f7f7f7;
     border-radius: 4.5px;
-    border: 1px solid #E0E0E0;
+    border: 1px solid #e0e0e0;
     font-family: monaco;
     font-size: 0.75em;
     font-style: normal;
@@ -149,7 +149,7 @@ div.type-system-serif {
 
 div.type-system-serif p {
   color: white;
-  background: #523F38;
+  background: #523f38;
   opacity: 0.6;
   line-height: 1.5em;
   padding: 30px;
@@ -169,7 +169,7 @@ div.type-system-serif {
   display: none; }
 
 div.type-system-serif a {
-  color: #ECC8AF;
+  color: #ecc8af;
   text-decoration: underline; }
 
 @media screen and (min-width: 1216px) and (max-width: 1390px) {
@@ -204,7 +204,7 @@ div.type-system-serif a {
     width: 100%;
     width: 40%;
     height: 1000px;
-    background: url(http://atlaslocal.com/wp-content/uploads/2017/02/jasper.png) 35% no-repeat;
+    background: url("http://jasperfurniss.com/assets/jasper.png") 35% no-repeat;
     background-size: cover; } }
 @media screen and (min-width: 1080px) and (max-width: 1164px) {
   .type-system-serif {
@@ -221,7 +221,7 @@ div.type-system-serif a {
   .hidden-combo {
     display: block;
     color: white;
-    background: #523F38;
+    background: #523f38;
     opacity: 0.6;
     line-height: 1.5em;
     padding: 30px;
@@ -236,7 +236,7 @@ div.type-system-serif a {
     width: 100%;
     width: 40%;
     height: 1000px;
-    background: url(http://atlaslocal.com/wp-content/uploads/2017/02/jasper.png) 35% no-repeat;
+    background: url("http://jasperfurniss.com/assets/jasper.png") 35% no-repeat;
     background-size: cover; } }
 @media screen and (min-width: 1081px) and (max-width: 1180px) {
   .mypicture {
@@ -246,7 +246,7 @@ div.type-system-serif a {
     width: 100%;
     width: 40%;
     height: 100%;
-    background: url("http://atlaslocal.com/wp-content/uploads/2017/02/jasper.png") 35% no-repeat;
+    background: url("http://jasperfurniss.com/assets/jasper.png") 35% no-repeat;
     background-size: cover; }
 
   .type-system-serif {
@@ -263,7 +263,7 @@ div.type-system-serif a {
   .hidden-combo {
     display: block;
     color: white;
-    background: #523F38;
+    background: #523f38;
     opacity: 0.6;
     line-height: 1.5em;
     padding: 30px;
@@ -281,7 +281,7 @@ div.type-system-serif a {
     width: 100%;
     width: 40%;
     height: 100%;
-    background: url("http://atlaslocal.com/wp-content/uploads/2017/02/jasper.png") 35% no-repeat;
+    background: url("http://jasperfurniss.com/assets/jasper.png") 35% no-repeat;
     background-size: cover; }
 
   .type-system-serif {
@@ -298,7 +298,7 @@ div.type-system-serif a {
   .hidden-combo {
     display: block;
     color: white;
-    background: #523F38;
+    background: #523f38;
     opacity: 0.6;
     line-height: 1.5em;
     padding: 30px;
@@ -315,7 +315,7 @@ div.type-system-serif a {
   .hidden-combo {
     display: block;
     color: white;
-    background: #523F38;
+    background: #523f38;
     line-height: 1.5em;
     padding: 30px;
     font-family: "Merriweather", serif;
@@ -349,7 +349,7 @@ div.type-system-serif a {
     padding-top: 5%; }
 
   div.type-system-serif p {
-    color: #523F38;
+    color: #523f38;
     background: white;
     opacity: 0.8;
     line-height: 1.5em;
@@ -373,11 +373,11 @@ div.type-system-serif a {
     margin-right: 2.35765%;
     width: 100%;
     height: 100%;
-    background: url("http://atlaslocal.com/wp-content/uploads/2017/02/jasper.png") no-repeat;
+    background: url("http://jasperfurniss.com/assets/jasper.png") no-repeat;
     background-size: contain; }
 
   .mypicture:before {
-    content: '';
+    content: "";
     width: 100%;
     height: 1000px;
     position: absolute;
@@ -394,7 +394,7 @@ div.type-system-serif a {
   .hidden-combo {
     display: block;
     color: white;
-    background: #523F38;
+    background: #523f38;
     opacity: 0.6;
     line-height: 1.5em;
     padding: 30px;
@@ -425,7 +425,7 @@ div.type-system-serif a {
     line-height: 25px; }
 
   div.type-system-serif p {
-    color: #978C88;
+    color: #978c88;
     background: white;
     opacity: 1;
     line-height: 1.5em;
@@ -450,16 +450,16 @@ div.type-system-serif a {
     padding-bottom: 8px; }
 
   div.type-system-serif a {
-    color: #477DCA;
+    color: #477dca;
     text-decoration: none;
     font-weight: bold;
-    color: #E48D7D;
+    color: #e48d7d;
     text-decoration: underline; }
 
   .hidden-combo {
     display: block;
     color: white;
-    background: #523F38;
+    background: #523f38;
     opacity: 0.6;
     line-height: 1.5em;
     padding: 30px;
